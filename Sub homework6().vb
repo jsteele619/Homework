@@ -51,5 +51,11 @@ For j = 2 To Lastrow
 Next j
 
     Sum = 2
+
+    Sheet.Cells(1, 9).Value = "Ticker"
+    Sheet.Cells(1, 10).Value = "Yearly Change"
+    Sheet.Cells(1, 11).Value = "Percent Change"
+    Sheet.Cells(1, 12).Value = "Total Stock Volume"
+
 Next Sheet
 End Sub
